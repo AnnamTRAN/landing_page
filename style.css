@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#sam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#sam img{
+    max-width: 10%;
+    height: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    border-radius: 8px; 
+    height: 3em;
+}
+
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+nav a:hover{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px whitesmoke;
+}
+
+nav a:visited{
+    text-decoration: none;
+    color: gray;
+}
+a h1{
+    color: black;
+}
+
+a h1:visited{
+    color: black;
+}
+
+#first{
+    display: flex;
+}
+
+.pic{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#pic_2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 25px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.img{
+    width: 40%;
+    border-radius: 8px;
+}
+
+.img_2{
+    width: 15em;
+    height: 15em;
+    border-radius: 8px;
+}
+
+#pa{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 20%;
+    width: 100%;
+}
+
+#display{
+    width: 100%;
+    display: flex;
+}
+
+.box{
+    width: 15em;
+    height: 23em;
+}
+
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.avis{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.hover{
+    background-color: black;
+    border-radius: 8px;
+    opacity: 75%;
+}
+
+.titre{
+    color: whitesmoke;
+}
+
+@media only screen and (max-width:480px){
+
+    #pa{
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        display: flex;
+        padding-right: 25%;
+        width: 80%;
+    }
+
+    #pa h2{
+        padding-left: 20%;
+    }
+
+   .pic{
+    display: none;
+   }
+
+    #pic_2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+}
